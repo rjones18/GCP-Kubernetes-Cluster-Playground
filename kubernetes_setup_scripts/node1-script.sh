@@ -44,3 +44,4 @@ sudo apt-get update
 # sudo apt-get install -y kubelet=1.27.0-00 kubeadm=1.27.0-00 kubectl=1.27.0-00
 sudo apt-get install -y --allow-change-held-packages kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
+echo 'Run the join command that you get from the master server to join this node to the cluster'
